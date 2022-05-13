@@ -1,0 +1,51 @@
+.newWrapper {
+    margin: 30px auto;
+    display: flex;
+
+    width: 1100px;
+    height: 300px;
+}
+
+.dispFlex {
+    margin-top: 15px;
+    display: flex;
+}
+
+.post {
+    margin-left: 30px;
+}
+
+.imgNew {
+    border-radius: 3px;
+}
+
+.button {
+    background-color: #ffffff;
+    border: 0px;
+    margin-top: 180px;
+    margin-left: 500px;
+    padding: 5px 0;
+    max-width: 150px;
+    width: 100%;
+    display: inline-block;
+    line-height: 100%;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    text-decoration: none;
+    transition: .4s;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+.button:active {
+    background-color: #a8a8a8;
+}
+
+.paginationWrapper {
+    position: fixed;
+    right: 30px;
+    top: 80%;
+    padding: 10px;
+}

@@ -1,0 +1,82 @@
+/* Large Display */
+@media (max-width: 1140px) {
+    .cardWrapper {
+        flex-direction: column;
+        width: 800px;
+    }
+
+    .similarNews {
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+  }
+  
+  /* Medium Display */
+  @media (max-width: 960px) {
+    .cardWrapper {
+        width: 600px;
+    }
+  }
+  
+  /* Small Display */
+  @media (max-width: 720px) {
+    .cardWrapper {
+        margin-top: 50px;
+        width: 450px;
+    }
+  }
+  
+  /* ExtraExtra Display */
+  @media (max-width: 540px) {
+    .cardWrapper {
+        width: 350px;
+    }
+
+    .buttonSim {
+        padding: 1px 10px;
+
+        font-size: 14px;
+    }
+}
+
+  
+  /* ExtraExtra Display */
+  @media (max-width: 371px) {
+    .cardWrapper {
+        width: 250px;
+    }
+
+    .publushInfo {
+        font-size: 12px;
+    }
+
+    .buttonStore {
+        line-height: 1.5;
+   
+        border-radius: 4px;
+
+        width: 160px;
+        height: 35px;
+
+        font-size: 10px;
+
+        margin-top: -10px;
+    }
+    
+    .titleHeaderPage {
+        font-size: 16px;
+    }
+
+    .newSummary{
+        font-size: 14px;
+    }
+
+    .buttonSim {
+        font-size: 15px;
+
+        padding: 8px 16px;
+        
+        width: 250px;
+    }
+  }
+  

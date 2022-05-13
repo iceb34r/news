@@ -1,0 +1,10 @@
+  /* ExtraExtra Display */
+  @media (max-width: 371px) {
+    .buttonSim {
+        font-size: 15px;
+
+        padding: 8px 16px;
+        
+        width: 250px;
+    }
+  }

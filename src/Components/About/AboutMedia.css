@@ -1,0 +1,22 @@
+/* ExtraSmall Display */
+@media (max-width: 540px) {
+  .cardImg {
+    width: 300px;
+  }
+}
+
+/* ExtraExtraSmall Display */
+@media (max-width: 340px) {
+  .cardImg {
+    width: 250px;
+  }
+
+  .card-body {
+    width: 250px;
+  }
+
+  .button{
+    padding: 10px 10px;
+  }
+}
+  

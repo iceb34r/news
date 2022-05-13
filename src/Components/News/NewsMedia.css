@@ -1,0 +1,81 @@
+/* Large Display */
+@media (max-width: 1140px) {
+  .input {
+    width: 300px;
+  }
+}
+
+/* Medium Display */
+@media (max-width: 960px) {
+  .input {
+    width: 140px;
+  }
+
+  .inputStyle {
+    font-size: 13px;
+  }
+
+  .select {
+    width: 140px;
+  }
+
+  .sort {
+    width: 200px;
+  }
+}
+
+/* Small Display */
+@media (max-width: 720px) {
+  .finderStyle {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .select {
+    margin: 20px 0;
+    width: 430px;
+  }
+
+  .buttonFind {
+    margin-left: 5px;
+  }
+
+  .sort {
+    margin-left: 0;
+    width: 400px;
+  }
+
+  .input {
+    width: 350px;
+  }
+}
+
+/* ExtraExtra Display */
+@media (max-width: 540px) {
+  .select {
+    width: 350px;
+  }
+
+  .sort {
+    width: 320px;
+  }
+
+  .input {
+    width: 270px;
+  }
+}
+
+/* ExtraExtra Display */
+@media (max-width: 351px) {
+  .select {
+    width: 300px;
+  }
+
+  .sort {
+    width: 265px;
+  }
+
+  .input {
+    width: 215px;
+  }
+}
